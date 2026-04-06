@@ -15,7 +15,7 @@ import {
   Ticket,
   ChevronDown,
   ChevronRight,
-  Cactus,
+  
 } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import {
