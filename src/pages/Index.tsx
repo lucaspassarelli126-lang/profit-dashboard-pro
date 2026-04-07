@@ -15,7 +15,7 @@ const Index = () => {
           <main className="flex-1 p-4 md:p-6 space-y-4 overflow-auto">
             {/* Top metric cards */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <MetricCard title="Vendas realizadas" value="R$ 0,00" delay={0} />
+              <MetricCard title="Vendas realizadas" value="R$ 46.536,79" delay={0} />
               <MetricCard title="Quantidade de vendas" value="0" delay={100} />
             </div>
 

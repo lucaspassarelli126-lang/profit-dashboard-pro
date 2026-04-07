@@ -10,13 +10,15 @@ import {
 } from "@/components/ui/table";
 
 const sales = [
-  { cliente: "Maria Silva", produto: "Curso de Marketing Digital", valor: "R$ 297,00", status: "Aprovado", data: "05/04/2026" },
-  { cliente: "João Santos", produto: "E-book Renda Extra", valor: "R$ 47,90", status: "Aprovado", data: "05/04/2026" },
-  { cliente: "Ana Oliveira", produto: "Mentoria Premium", valor: "R$ 997,00", status: "Pendente", data: "04/04/2026" },
-  { cliente: "Carlos Lima", produto: "Curso de Tráfego Pago", valor: "R$ 197,00", status: "Aprovado", data: "04/04/2026" },
-  { cliente: "Fernanda Costa", produto: "Pack de Templates", valor: "R$ 67,00", status: "Cancelado", data: "03/04/2026" },
-  { cliente: "Roberto Alves", produto: "Curso de Copywriting", valor: "R$ 347,00", status: "Aprovado", data: "03/04/2026" },
-  { cliente: "Patrícia Rocha", produto: "E-book Renda Extra", valor: "R$ 47,90", status: "Aprovado", data: "02/04/2026" },
+  { cliente: "Confeitaria Doce Mel", produto: "Site Institucional + Catálogo", valor: "R$ 4.500,00", status: "Aprovado", data: "06/04/2026" },
+  { cliente: "Barbearia Lord", produto: "Site + Agendamento Online", valor: "R$ 3.997,00", status: "Aprovado", data: "05/04/2026" },
+  { cliente: "Pizzaria Bella Massa", produto: "Site com Cardápio Digital", valor: "R$ 2.997,00", status: "Aprovado", data: "05/04/2026" },
+  { cliente: "Pet Shop Patinhas", produto: "Landing Page + Google Ads", valor: "R$ 1.497,00", status: "Aprovado", data: "04/04/2026" },
+  { cliente: "Clínica Estética Glow", produto: "Site Institucional Premium", valor: "R$ 8.500,00", status: "Pendente", data: "04/04/2026" },
+  { cliente: "Oficina Auto Center", produto: "Site + Sistema de Orçamentos", valor: "R$ 5.990,00", status: "Aprovado", data: "03/04/2026" },
+  { cliente: "Padaria Pão Quente", produto: "Site com Delivery Integrado", valor: "R$ 6.997,00", status: "Aprovado", data: "02/04/2026" },
+  { cliente: "Studio Bella Hair", produto: "Landing Page + Instagram", valor: "R$ 1.497,00", status: "Aprovado", data: "01/04/2026" },
+  { cliente: "Açaí Mania", produto: "Site + Cardápio Online", valor: "R$ 2.497,00", status: "Cancelado", data: "01/04/2026" },
 ];
 
 const statusVariant: Record<string, string> = {
