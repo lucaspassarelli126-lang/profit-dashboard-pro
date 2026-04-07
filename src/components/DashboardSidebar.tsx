@@ -102,15 +102,15 @@ export function DashboardSidebar() {
               <div>
                 <p className="text-[11px] text-muted-foreground leading-tight">Faturamento</p>
                 <p className="text-sm font-semibold text-foreground leading-tight">
-                  R$ 30,82 / R$ 10K
+                  R$ 46.536,79 / R$ 100K
                 </p>
               </div>
             </div>
             <div className="mt-2.5 flex items-center gap-2">
               <div className="flex-1 h-1.5 rounded-full bg-border">
-                <div className="h-full rounded-full bg-primary" style={{ width: "0.3%" }} />
+                <div className="h-full rounded-full bg-primary" style={{ width: "46.5%" }} />
               </div>
-              <span className="text-xs text-muted-foreground">0%</span>
+              <span className="text-xs text-muted-foreground">46%</span>
             </div>
           </div>
         )}
