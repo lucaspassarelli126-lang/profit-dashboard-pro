@@ -10,13 +10,13 @@ import {
 import { Eye, CreditCard, Smartphone, QrCode } from "lucide-react";
 
 const paymentMethods = [
-  { name: "Pix", icon: QrCode, conversao: "0%", valor: "R$ 0,00" },
-  { name: "Boleto", icon: () => <span className="text-base font-mono tracking-tighter text-muted-foreground">||||</span>, conversao: "0%", valor: "R$ 0,00" },
-  { name: "Cartão de crédito", icon: CreditCard, conversao: "0%", valor: "R$ 0,00" },
+  { name: "Pix", icon: QrCode, conversao: "78%", valor: "R$ 20.941,56" },
+  { name: "Boleto", icon: () => <span className="text-base font-mono tracking-tighter text-muted-foreground">||||</span>, conversao: "42%", valor: "R$ 4.653,68" },
+  { name: "Cartão de crédito", icon: CreditCard, conversao: "65%", valor: "R$ 16.287,88" },
   { name: "Pic Pay", icon: () => <span className="text-sm font-bold text-muted-foreground">P°</span>, conversao: "0%", valor: "R$ 0,00" },
   { name: "Apple Pay", icon: () => <span className="text-xs border border-muted-foreground rounded px-1 text-muted-foreground">Pay</span>, conversao: "0%", valor: "R$ 0,00" },
   { name: "Google Pay", icon: () => <span className="text-xs font-medium text-muted-foreground">G Pay</span>, conversao: "0%", valor: "R$ 0,00" },
-  { name: "3DS", icon: CreditCard, conversao: "0%", valor: "R$ 0,00" },
+  { name: "3DS", icon: CreditCard, conversao: "58%", valor: "R$ 4.653,67" },
   { name: "PIX Automático", icon: QrCode, conversao: "0%", valor: "R$ 0,00" },
 ];
 

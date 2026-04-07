@@ -2,8 +2,8 @@ import { Eye } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const metrics = [
-  { label: "Abandono C.", value: "0" },
-  { label: "Reembolso", value: "0%" },
+  { label: "Abandono C.", value: "3" },
+  { label: "Reembolso", value: "2,1%" },
   { label: "Charge Back", value: "0%" },
   { label: "MED", value: "0%" },
 ];
